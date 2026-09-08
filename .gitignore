@@ -1,0 +1,38 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+.turbo/
+*.tsbuildinfo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Provider links and infrastructure state
+.vercel/
+.supabase/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Logs and local artifacts
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
